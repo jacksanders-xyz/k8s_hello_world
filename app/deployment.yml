@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: kim_vid
-        image: dockindaddy10291995/kim_vid
+        image: dockindaddy10291995/kim_vid:Tage
         command: ["npm", "start"]
         imagePullPolicy: IfNotPresent
         ports:
