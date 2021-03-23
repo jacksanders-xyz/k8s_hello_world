@@ -12,8 +12,8 @@ spec:
         app: dvlp-app
     spec:
       containers:
-      - name: kim_vid
-        image: dockindaddy10291995/kim_vid:Tage
+      - name: dvlp-app
+        image: dockindaddy10291995/kim_vid:myTage
         command: ["npm", "start"]
         imagePullPolicy: IfNotPresent
         ports:
