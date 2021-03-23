@@ -12,12 +12,12 @@ spec:
         app: dvlp-app
     spec:
       containers:
-      - name: dvlp-2018
-        image: kimschles/dvlp-2018:latest
+      - name: kim_vid
+        image: dockindaddy10291995/kim_vid
         command: ["npm", "start"]
         imagePullPolicy: IfNotPresent
         ports:
-        - containerPort: 8080
+        - containerPort: 4000
         resources:
           requests:
             memory: "64Mi"
